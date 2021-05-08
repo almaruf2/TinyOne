@@ -1,0 +1,274 @@
+/*fonts*/
+@font-face {
+    font-family: 'PTSans';
+    src: url(../fonts/PTSans-Regular.ttf);
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'PTSans';
+    src: url(../fonts/PTSans-Bold.ttf);
+    font-style: normal;
+    font-weight: 700;
+}
+
+/*fonts*/
+/*Common*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'PTSans';
+    font-size: 16px;
+    font-weight: 400;
+    color: #898989;
+}
+
+/*Common*/
+/*header Start*/
+header {
+    background: #fcdb00;
+    padding: 20px 0;
+}
+
+.logo {}
+
+.menu {}
+
+.menu ul li a {
+    padding: 0 50px !important;
+    font-size: 22px;
+    font-weight: 700;
+    color: #010101 !important;
+    transition: .3s;
+}
+
+.menu ul li:first-child a {
+    padding-left: 0 !important;
+}
+
+.menu ul li:last-child a {
+    padding-right: 0 !important;
+}
+
+.menu ul li a:hover {
+    font-weight: 700;
+    color: #fff !important;
+}
+
+/*Header End*/
+
+/*Slider start*/
+.hero {
+    background: #fcdb00;
+    padding-bottom: 100px;
+}
+
+.slider-indicator [data-bs-target] {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.slider-indicator {
+    bottom: -85px;
+}
+
+.slider-indicator .active {
+    background-color: red;
+}
+
+.s_text {
+    margin-top: 70px;
+}
+
+.s_text h1 {
+    margin-bottom: 20px;
+    font-size: 32px;
+    font-weight: 700;
+    color: #010101;
+}
+
+.s_text h3 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #313841;
+}
+
+.s_text p {
+    margin-bottom: 35px;
+    color: #555555;
+}
+
+.s_img {}
+
+.s_img img {}
+
+.slider-btn {
+    min-width: 190px;
+    min-height: 55px;
+    border: 1px solid #010101;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    transition: .3s;
+}
+
+.slider-btn:hover {
+    background: #010101;
+    color: #fff;
+}
+
+.slider-btn:focus {
+    box-shadow: 0 0;
+}
+
+.icon_slider {
+    font-size: 22px;
+    padding-left: 15px;
+}
+
+/*Slider End*/
+
+/*Features start*/
+.com-padding {
+    padding-top: 100px;
+    padding-bottom: 120px;
+}
+
+.c_title {}
+
+.c_h1 {
+    margin-bottom: 20px;
+    font-size: 32px;
+    font-weight: 700;
+    color: #010101;
+}
+
+.c_p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #898989;
+    word-spacing: 4px;
+    line-height: 25px;
+}
+
+.c-m-t75 {
+    margin-top: 75px;
+}
+
+.si_icon {
+    font-size: 50px;
+    text-align: center;
+    color: #010101;
+}
+
+.si_text {
+    margin-top: 8px;
+}
+
+.si_text h2 {
+    margin-bottom: 15px;
+    font-size: 22px;
+    font-weight: 700;
+    color: #010101;
+}
+
+.si_text p {
+    font-size: 16px;
+    font-weight: 400;
+    word-spacing: 2px;
+    line-height: 22px;
+}
+
+/*Features End*/
+/*Contact Start*/
+.contact {
+    background-color: #010101;
+}
+
+.c_yellow {
+    color: #fcdb00;
+}
+
+.m-tb {
+    margin-top: 45px;
+    margin-bottom: 80px;
+}
+
+.c-email {
+    width: 100%;
+    height: 60px !important;
+}
+
+.c-email:focus {
+    color: #010101;
+    border-color: #fcdb00;
+    box-shadow: 0 0 0 0.5px rgb(252 219 0);
+}
+
+.margin_c {
+    margin-left: 15px;
+}
+
+.c-button {
+    width: 100%;
+    height: 60px;
+    font-family: 'PTSans';
+    font-size: 18px;
+    font-weight: 700;
+    color: #010101;
+    text-transform: uppercase;
+    background-color: #fcdb00;
+    transition: .3s;
+}
+
+.c-button:hover {
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+}
+
+.social_icon {}
+
+.social_icon ul li {}
+
+.social_icon ul li a {}
+
+.social_icon ul li a i {
+    margin: 0 8px;
+    padding-top: 5px;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 38px;
+    background-color: #fcdb00;
+    color: #010101;
+    transition: .3s;
+}
+
+.social_icon ul li a i:hover {
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+}
+
+/*Contact end*/
+/*Footer Start*/
+footer {
+    background-color: #010101;
+    padding-bottom: 120px;
+}
+
+.f1 a,
+.f2 a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #898989;
+    text-decoration: none;
+}
+
+/*Footer End*/
